@@ -1,0 +1,11 @@
+在文件夹中都放入icon.png（应用图标，最小192x192px，不带圆角），splash.png（启动屏幕，最小2208x2208px，中间区域1200x1200px）(可以是png、psd、ai)
+3.在cmd中进入项目所在文件夹执行：
+ 
+ionic resources
+  
+ 执行该命令后，会自动在resources文件夹下创建已添加的平台名称的文件夹，
+如：android，其中会自动将图片进行缩放、裁剪，生成不同分辨率的图片，并在config.xml中添加相应内容。
+也可分开执行：
+ 
+ionic resources --icon       
+ionic resources --splash  
